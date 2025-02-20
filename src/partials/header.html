@@ -1,19 +1,78 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+<!-- Header -->
+
+<header id="header" class="header">
+  <div class="container header-container">
+    <nav class="navigation">
+      <div class="logo-header">
+        <a id="home" href="#" class="logo-link">
+          <picture class="image">
+            <source
+              srcset="
+                ./img/header/mobile/logo-mob-1x.png 1x,
+                ./img/header/mobile/logo-mob-2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="
+                ./img/header/tablet/logo-tab-1x.png 1x,
+                ./img/header/tablet/logo-tab-2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/header/desktop/logo-desk-1x.png 1x,
+                ./img/header/desktop/logo-desk-2x.png 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <img
+              src="./img/header/logo.png"
+              alt="Logo"
+              width="80"
+              height="80"
+            />
+          </picture>
+          <span class="logo-text">jefferson*</span>
+        </a>
+      </div>
+
+      <button
+        class="burger js-open-burger"
+        type="button"
+        aria-label="Open menu"
+        data-menu-open
+      >
+        <svg class="burger-icon" width="28" height="28">
+          <use href="./img/sprite.svg#burger"></use>
         </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
+      </button>
+
+      <div class="menu-header">
+        <a href="#" class="header-nav-link menu-link">Menu</a>
+        <ul class="dropdown-menu">
+          <li class="nav-link-item">
+            <a href="#about-me" class="header-nav-link">About me</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="#benefits" class="header-nav-link">Benefits</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="#projects" class="header-nav-link">Projects</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="#faq" class="header-nav-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+
+   
+      <a href="#WorkTogether" class="header-button-link">Order the project</a>
+    
   </div>
 </header>
+
+<!-- JavaScript to handle menu interactions -->
+<script type="module" src="./js/header.js"></script>

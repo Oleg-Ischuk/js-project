@@ -1,0 +1,242 @@
+/*  загальний відступ і фонове зображення */
+.workTogetherSection {
+  background-image: url('../img/work-together/glass-effect-2.png');
+  background-position-x: 290px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .workTogetherSection {
+    background-image: url('../img/work-together/glass-effect-2@2x.png');
+  }
+}
+.container.footer-container {
+  padding: 32px 16px;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
+}
+.work-together-title {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-photo {
+  margin-right: 10px;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.workTogetherTitle {
+  font-family: Inter Tight, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fafafa;
+  margin-bottom: 60px;
+}
+.work-together-header {
+  display: inline-block;
+}
+.workWord {
+  color: #ed3b44;
+}
+.newline {
+  display: inline-block;
+  margin-left: -55px;
+  margin-top: 10px;
+}
+.coopForm {
+  display: flex;
+  flex-direction: column;
+}
+.coopInputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.coopInput {
+  border: none;
+  color: #fafafa;
+  background-color: transparent;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid rgba(250, 250, 250, 20%);
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+coopInput::placeholder {
+  color: rgba(250, 250, 250, 60%);
+}
+
+.coopInput:focus,
+.coopInput:active {
+  outline-style: none;
+  box-shadow: none;
+  border-bottom: 1px solid rgba(250, 250, 250, 50%);
+}
+.coopSubmitBtn {
+  color: #fafafa;
+  background-color: #ed3b44;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coopSubmitBtn:hover,
+.coopSubmitBtn:focus {
+  background-color: #e0373f;
+}
+.coopResultMsg {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  position: absolute;
+}
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+
+  gap: 4px;
+  margin-top: 60px;
+}
+.contactItem {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+.contactLink {
+  padding: 10px 12px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #fafafa;
+}
+.contactItem:hover {
+  border-color: #fafafa;
+  box-shadow: 0 0 15px #ed3b44;
+}
+@media screen and (min-width: 333px) {
+  .contactsList {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 768px) {
+  .workTogetherSection {
+    background-position-x: 570px;
+  }
+  .container.footer-container {
+    padding: 32px 32px;
+    max-width: 768px;
+  }
+  .footer-photo {
+    width: 70px;
+    height: 70px;
+  }
+  .work-together-title {
+    width: auto;
+  }
+  .workTogetherTitle {
+    font-size: 64px;
+    margin-bottom: 60px;
+  }
+  .newline {
+    margin-left: -75px;
+  }
+  .coopForm {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding-top: 0;
+    margin-top: -18px;
+  }
+  .coopInputGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+    gap: 32px;
+    margin-bottom: 0px;
+  }
+  .coopInputItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 245px;
+  }
+  .coopResultMsg {
+    margin-top: 42px;
+  }
+  .coopSubmitBtn {
+    width: 150px;
+    height: 150px;
+  }
+  .contactsList {
+    margin-top: 16px;
+    gap: 8px;
+  }
+  .contactItem {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .contactLink {
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .workTogetherSection {
+    background-position-x: 1040px;
+  }
+  .container.footer-container {
+    max-width: 1440px;
+    padding-left: 196px;
+  }
+  .coopInputGroup {
+    gap: 32px;
+    margin-bottom: 78px;
+  }
+  .coopInputItem {
+    width: 340px;
+  }
+  .coopSubmitBtn {
+    margin-left: 86px;
+  }
+  .contactsList {
+    margin-bottom: 169px;
+  }
+}
