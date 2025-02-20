@@ -9,23 +9,23 @@
     />
 
     <style>
-        body {
-            opacity: 0;
-            transition: opacity 0.2s ease-in-out;
-        }
+      body {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+      }
     </style>
     <script>
-        (function() {
-            document.addEventListener('DOMContentLoaded', () => {
-                const savedColor = localStorage.getItem('selectedColor');
-                if (savedColor) {
-                    document.body.classList.add(savedColor);
-                }
-                document.body.style.opacity = '1'; 
-            });
-        })();
+      (function () {
+        document.addEventListener('DOMContentLoaded', () => {
+          const savedColor = localStorage.getItem('selectedColor');
+          if (savedColor) {
+            document.body.classList.add(savedColor);
+          }
+          document.body.style.opacity = '1';
+        });
+      })();
     </script>
-    <link rel="icon" type="image/svg+xml" href="/Favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/js-project/favicon.svg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap&subset=latin"
       rel="stylesheet"
