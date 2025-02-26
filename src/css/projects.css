@@ -1,233 +1,229 @@
 .projects-section {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
-
 
 /*------tools FOR Mobile-----*/
 
 .container.projects-container {
-    
-    padding-left: 16px;
-    padding-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .section-headline {
-    color: rgba(250, 250, 250, 0.4);
-    font-family: Inter Tight;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    margin-bottom: 32px;
-    margin-right: 59px;
+  color: rgba(250, 250, 250, 0.4);
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 32px;
+  margin-right: 59px;
 }
 
 .projects-technologies {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(250, 250, 250, 1);
-    height: 50%;
-    border-radius: 24px 24px 0px 0px;
-    padding: 32px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(250, 250, 250, 1);
+  height: 50%;
+  border-radius: 24px 24px 0px 0px;
+  padding: 32px;
 }
 
 .technologies-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 96px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 96px;
+  align-items: center;
 }
 
 .technologies-item {
-    border: 1px solid rgba(28, 29, 32, 0.2);
-    border-radius: 60px;
-   height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    margin: 0;
+  border: 1px solid rgba(28, 29, 32, 0.2);
+  border-radius: 60px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 0;
 }
 @media screen and (min-width: 768px) {
-    .technologies-item {
-        height: 55px;
-    }
-    
+  .technologies-item {
+    height: 55px;
+  }
 }
 
 .item-content {
-    color: #1C1D20;
-font-family: "Inter Tight";
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.32px;
-    text-decoration: none;
-     padding: 13px 18px;
+  color: #1c1d20;
+  font-family: 'Inter Tight';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-decoration: none;
+  padding: 13px 18px;
 }
 
 .projects-title {
-    color: #1C1D20;
-    font-family: inherit;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    margin-bottom: 32px;
+  color: #1c1d20;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 .projects-button {
-    color: #FAFAFA;
-    background-color: #ED3B44;
-    width: 141px;
-    height: 45px;
-    border-radius: 60px;
-    border: none;
-    text-align: center;
-    display: inline-block;
-    line-height: 45px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  color: #fafafa;
+  background-color: #ed3b44;
+  width: 141px;
+  height: 45px;
+  border-radius: 60px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  line-height: 45px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .projects-button:hover {
-    background-color: #E0373F;
+  background-color: #e0373f;
 }
 
 .projects-demo {
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-bottom: 32px;
-    justify-content: center;
-    background-color: #242527;
-    border-radius: 0px 0px 24px 24px;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 32px;
+  justify-content: center;
+  background-color: #242527;
+  border-radius: 0px 0px 24px 24px;
 }
 
 .swiper-btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    border: 1px solid #FAFAFA80;
-    background-color: #1C1D20;
-    color: white;
-    cursor: pointer;
-    z-index: 10;
-    /*transition: background-color 0.3s ease;*/
-    transition: opacity 0.25s ease-in-out, background-color 0.25s ease-in-out,
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #fafafa80;
+  background-color: #1c1d20;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+  /*transition: background-color 0.3s ease;*/
+  transition: opacity 0.25s ease-in-out, background-color 0.25s ease-in-out,
     border-color 0.25s ease-in-out;
 }
 
 /* Стилі для дизейблених кнопок */
 .swiper-button-disabled {
-    border: 1px solid #FAFAFA80;
-    cursor: default;
-    color: #FAFAFA80;
-    opacity: 0.2;
+  border: 1px solid #fafafa80;
+  cursor: default;
+  color: #fafafa80;
+  opacity: 0.2;
 }
 
 .projects-section .swiper-button-prev {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .projects-section .swiper-button-prev:not(.swiper-button-disabled):hover,
 .projects-section .swiper-button-next:not(.swiper-button-disabled):hover,
 .projects-section .swiper-button-prev:not(.swiper-button-disabled):focus,
 .projects-section .swiper-button-next:not(.swiper-button-disabled):focus {
-    background-color: #ed3b44;
-    border-color: #ed3b44;
+  background-color: #ed3b44;
+  border-color: #ed3b44;
 }
-.technologies-item:hover{
- 
-    box-shadow: 0 0 15px #ed3b44;
+.technologies-item:hover {
+  box-shadow: 0 0 15px #ed3b44;
 }
 /*------tools FOR Tablet-----*/
 @media only screen and (min-width: 768px) {
+  .container.projects-container {
+    padding: 0 32px;
+  }
+  .projects-technologies {
+    padding: 64px;
+  }
+  .technologies-list {
+    margin-bottom: 164px;
+  }
 
-    .container.projects-container {
-           
-            padding: 0 32px;
-        }
-    .projects-technologies {
-            padding: 64px;
-}
-    .technologies-list {
-        margin-bottom: 164px;
-    }
+  .projects-title {
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 41px;
+  }
 
-    .projects-title {
-        font-size: 44px;
-        line-height: 44px;
-        margin-bottom: 41px;
-    }
+  .projects-button {
+    color: #fafafa;
+    background-color: #ed3b44;
+    width: 177px;
+    height: 55px;
+    border-radius: 60px;
+  }
 
-    .projects-button {
-        color: #FAFAFA;
-        background-color: #ED3B44;
-        width: 177px;
-        height: 55px;
-        border-radius: 60px;
-    }
+  .projects-demo {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 64px;
+  }
 
-    .projects-demo {
-        padding-top: 120px;
-        padding-bottom: 120px;
-        margin-bottom: 64px;
-    }
+  .swiper-btn-container {
+    gap: 20px;
+  }
 
-        .swiper-btn-container {
-            gap: 20px;
-        }
-    
-        .swiper-button-next,
-        .swiper-button-prev {
-            width: 68px;
-            height: 68px;
-        }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 68px;
+    height: 68px;
+  }
 }
 
 /*------tools FOR Desktop-----*/
 @media screen and (min-width: 1440px) {
-   
+  .projects-section {
+    margin-bottom: 164px;
+  }
 
-    li.swiper-slide-projects {
-        display: inline-flex;
-        margin-bottom: 64px;
-    }
+  li.swiper-slide-projects {
+    display: inline-flex;
+    margin-bottom: 64px;
+  }
 
-    .projects-technologies {
-        background-color: rgba(250, 250, 250, 1);
-        width: 50%;
-        height: 100%;
-        border-radius: 24px 0px 0px 24px;
-    }
+  .projects-technologies {
+    background-color: rgba(250, 250, 250, 1);
+    width: 50%;
+    height: 100%;
+    border-radius: 24px 0px 0px 24px;
+  }
 
-    .technologies-list {
-        margin-bottom: 223px;
-    }
+  .technologies-list {
+    margin-bottom: 223px;
+  }
 
-    .projects-demo {
-        width: 50%;
-        padding-top: 120px;
-        padding-bottom: 120px;
-        margin-bottom: 0px;
-        border-radius: 0px 24px 24px 0px;
-    }
+  .projects-demo {
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 0px;
+    border-radius: 0px 24px 24px 0px;
+  }
 }
